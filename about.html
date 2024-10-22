@@ -2,12 +2,110 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/styles.css" />
-    <title>About me</title>
+    <meta
+      name="description"
+      content="about sarahatesyou, a social media manager, now front-end developer on the making"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>About Sadie - sarahatesyou 🦇</title>
   </head>
   <body>
-    <h1>About me</h1>
-    <a href="/">Back to homepage</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">sarahatesyou 🦇</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" title="Homepage" href="/"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="about.html"
+                title="About sarahatesyou"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="about.html#contact"
+                title="Contact sarahatesyou"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1 class="text-center">About me</h1>
+    <h3 class="text-center">Front-end developer from Portugal</h3>
+    <div class="about-paragraphs text-center">
+      <p>
+        sarahatesyou 🦇 is a master of social media who’s woven her digital
+        magic in the sports industry for the past seven years. Now, she's
+        embracing the shadows of change, transitioning her talents to front-end
+        development. Her love for Halloween is unmatched—every day is like All
+        Hallows' Eve in her world—and she finds joy in the haunting melodies of
+        live music and concerts. Always accompanied by her two loyal dogs, she’s
+        ready to code her way into new and thrilling digital realms.
+      </p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <img
+            src="images/recipe.png"
+            class="img-fluid rounded border border-warning border-4"
+            alt="Image preview for the recipe website"
+          />
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="images/weather.png"
+            class="img-fluid rounded border border-warning border-4"
+            alt="Image preview for the weather app website"
+          />
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="images/worldclock.png"
+            alt="Image preview for the world clock website"
+            class="img-fluid rounded border border-warning border-4"
+          />
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="mt-5">
+      <h2 class="text-center">✉ Contact me</h2>
+      <a href="mailto:me@me.me" class="email-link"> me@me.me </a>
+    </div>
   </body>
 </html>

@@ -2,12 +2,141 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="sarahatesyou's portefolio, a social media manager, now front-end developer on the making"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/styles.css" />
-    <title>My website</title>
+    <title>Sadie's Portefolio - sarahatesyou 🦇</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <h1>Welcome</h1>
-    <a href="/about.html">About me</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">sarahatesyou 🦇</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h2 class="text-center">Hi I am</h2>
+    <h1 class="text-center">sarahatesyou 🦇</h1>
+    <h3 class="text-center">Front-end developer, based in Portugal</h3>
+    <div class="navigation-links mb-5">
+      <a href="about.html#contact" class="primary-link">Contact me</a>
+      <a href="about.html" class="secondary-link">About me</a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <img
+            src="images/recipe.png"
+            class="img-fluid rounded border border-warning border-4"
+            alt="Image preview for the recipe maker website"
+          />
+        </div>
+        <div class="col-6">
+          <h2 class="mb-3">Recipe app</h2>
+          <p>
+            A website that uses AI to create vegetarian recipes allows users to
+            input a specific ingredient, then generates customized recipes
+            featuring that ingredient.
+          </p>
+          <div class="mt-5">
+            <a
+              href="https://sadies-ai-recipe-generator.netlify.app/"
+              class="primary-link project-link"
+              target="_blank"
+              >Launch Recipe App</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-6">
+          <h2 class="mb-3">Weather app</h2>
+          <p>
+            A website that provides current weather conditions and a weekly
+            forecast for a city specified by the user, offering up-to-date and
+            accurate meteorological information.
+          </p>
+          <div class="mt-5">
+            <a
+              href="https://main--sadiesweatherapp.netlify.app/"
+              class="primary-link project-link"
+              target="_blank"
+              >Launch Weather App</a
+            >
+          </div>
+        </div>
+        <div class="col-6">
+          <img
+            src="images/weather.png"
+            class="img-fluid rounded border border-warning border-4"
+            alt="Image preview for the weather app website"
+          />
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-6">
+          <img
+            src="images/worldclock.png"
+            class="img-fluid rounded border border-warning border-4"
+            alt="Image preview for the world clock website"
+          />
+        </div>
+        <div class="col-6">
+          <h2 class="mb-3">World Clock app</h2>
+          <p>
+            A website that displays the current time in various cities around
+            the world, as well as the local time based on the user's current
+            location.
+          </p>
+          <div class="mt-5">
+            <a
+              href="https://sadies-world-clock.netlify.app/"
+              target="_blank"
+              class="primary-link project-link"
+              >Launch World Clock App</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
