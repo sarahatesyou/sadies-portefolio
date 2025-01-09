@@ -120,3 +120,13 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+
+.container a {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.container a:hover {
+  color: var(--primary-color);
+  text-decoration: overline;
+}
