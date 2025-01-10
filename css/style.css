@@ -5,7 +5,6 @@
 }
 
 body {
-  margin-top: 100px;
   background-color: #1c1c1c;
   color: #ffffff;
 }
@@ -121,12 +120,37 @@ p {
   padding: 15px 30px;
 }
 
-.container a {
+.text-container a {
   color: var(--primary-color);
   text-decoration: underline;
 }
 
-.container a:hover {
+.text-container a:hover {
   color: var(--primary-color);
   text-decoration: overline;
+}
+
+nav {
+  padding: 35px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
 }
