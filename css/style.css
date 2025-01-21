@@ -144,13 +144,19 @@ nav li {
   line-height: 42px;
 }
 
-nav a {
+nav a,
+footer a {
   text-decoration: none;
   color: #ffffff;
   transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
-nav li.active a {
+nav li.active a,
+footer a:hover {
   color: var(--primary-color);
+}
+
+footer {
+  text-align: center;
 }
